@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to bottom right, rgb(0, 140, 222), white);
+    color: white;
+    max-width: 1200px;
+    max-height: 12000px;
+    margin: 0 auto;
+    padding: 15px
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    line-height: 5px;
+    flex-direction: column;
+}
+
+.links{
+    font-family: 'Playfair Display', serif;
+}
+
+.sub1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.sub2{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: rgb(0, 140, 222)
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px
+}
+
+li{
+    display: inline-block;
+    margin: 20px
+}
